@@ -29,6 +29,12 @@ $(document).ready(function() {
 		currentmug = this;
 		$(".content #" + name).slideDown();
 	});
+
+
+	var div = $('.container');
+    var width = 1.17*div.width();
+    
+    div.css('height', width);  
 });
 
 function mugClick(obj) {
